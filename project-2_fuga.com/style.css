@@ -1,0 +1,462 @@
+.home-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #80ff80;
+}
+
+.right-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.right-items li {
+    text-decoration: none;
+    font-size: 17px;
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-btn {
+    width: 130px;
+    height: 40px;
+    background: transparent;
+    margin: 10px 0px 0px 20px;
+    border: 3px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.home {
+    background-color: #80ff80;
+    height: 700px;
+}
+
+.logo {
+    margin: 50px 0px 0px 150px;
+}
+
+.list {
+    margin: 40px 150px 0px 0px;
+}
+
+.home-foot {
+    margin: 140px 0px 40px 150px;
+}
+
+.home-pera {
+    margin-top: 60px;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.home-head1 {
+    margin-top: 40px;
+    opacity: 0.6;
+}
+
+.home-head2 {
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #80ff80;
+    gap: 5px;
+}
+
+.item1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item2 {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
+
+.item3 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.item4 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.item5 {
+    grid-column: 5;
+    grid-row: 1 / span 3;
+}
+
+.item6 {
+    grid-column: 1;
+    grid-row: 2 / span 3;
+}
+
+.item7 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.item8 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.item9 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+
+.music-distribution {
+    background-color: #202e5408;
+    padding-top: 70px;
+}
+
+.md {
+    margin: 80px 0px 0px 100px;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+.music-distribution h1 {
+    margin: 30px 0px 0px 100px;
+}
+
+.pera1 {
+    margin: 5px 0px 0px 100px;
+}
+
+.ps1 {
+    margin: 8px 0px 0px 100px;
+}
+
+.pera2 {
+    margin: 10px 0px 0px 100px;
+}
+
+.ps2 {
+    margin: 8px 0px 0px 100px;
+}
+
+.pera3 {
+    margin: 10px 0px 0px 100px;
+}
+
+.music-distribution button {
+    margin: 30px 0px 90px 110px;
+    background-color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.royalti {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202E54;
+
+}
+
+.left-side img {
+    padding: 100px;
+}
+
+.right-side {
+    width: 36%;
+    margin-top: 20px;
+}
+
+.pr {
+    font-size: 24px;
+    color: azure;
+}
+
+.mhead {
+    color: azure;
+    font-size: 34px;
+}
+
+.pf {
+    color: azure;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.pp {
+    color: azure;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.pu {
+    color: azure;
+}
+
+.right-side button {
+    margin: 30px 0px 0px 0px;
+    background-color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.fuga-playlist {
+    background: url(/project-2_fuga.com/img/Fuga_code_80.webp);
+    height: 500px;
+    width: 100%;
+}
+
+.fuga-playlist h1 {
+    padding-top: 350px;
+    margin-left: 100px;
+    width: 60%;
+    color: #80ff80;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.analytics {
+    display: flex;
+    padding-top: 150px;
+    background-color: #80ff80;
+    justify-content: space-evenly;
+}
+
+.left-sidee {
+    width: 33%;
+}
+
+.left-sidee h2 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+
+.left-sidee h2 {
+    font-size: 34px;
+}
+
+.left-sidee p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.left-sidee button {
+    margin: 30px 0px 70px 0px;
+    background-color: #050605;
+    color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202E54;
+    color: azure;
+}
+
+.right-sec {
+    width: 35%;
+    padding-top: 60px;
+}
+
+.left-sec {
+    padding-top: 70px;
+}
+
+.right-sec button {
+    margin: 30px 0px 0px 0px;
+    background-color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.network {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #202e540e;
+}
+
+.left-secc {
+    padding-top: 80px;
+    width: 35%;
+}
+
+.right-secc {
+    padding-top: 80px;
+}
+
+.left-secc button {
+    margin: 30px 0px 0px 0px;
+    background-color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.left-secc p {
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.left-secc h2 {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.left-secc h1 {
+    font-size: 34px;
+}
+
+.about {
+    background-color: #202E54;
+    color: azure;
+}
+
+.about-c {
+    width: 53%;
+    padding: 80px 130px;
+}
+
+.about-c h2 {
+    font-size: 24px;
+}
+
+.about-c h1 {
+    font-size: 34px;
+}
+
+.about-c p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.about-c button {
+    margin: 30px 0px 0px 0px;
+    background-color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.jobs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-row {
+    width: 36%;
+    padding-top: 60px;
+    padding-right: 250px;
+}
+
+.left-row h2 {
+    font-size: 24px;
+}
+
+
+.left-row h1 {
+    font-size: 34px;
+}
+
+
+.left-row p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.right-row button {
+    margin: 190px 0px 40px 0px;
+    background-color: #050605;
+    color: #80ff80;
+    font-size: large;
+    padding: 25px 50px;
+    border: 0ch;
+}
+
+.contact {
+    background-color: #80ff80;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-left: 120px;
+    padding-top: 75px;
+}
+
+.contact h1 {
+    font-size: 34px;
+    margin-left: 120px;
+}
+
+.perac {
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.peracu {
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.bottom .left,
+.mid,
+.right {
+    margin-right: 160px;
+}
+
+.left button {
+    margin: 10px 0px 40px 0px;
+    background-color: #050605;
+    color: #80ff80;
+    font-size: large;
+    padding: 25px 90px;
+    border: 0ch;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col1 h2 {
+    font-size: 24px;
+    font-weight: 200;
+
+}
+
+.col1 h1 {
+    font-size: 34px;
+}
+
+.col2 p {
+    line-height: 30px;
+}
+
+.col2 {
+    padding-top: 200px;
+}
+
+.col3 {
+    padding-top: 200px;
+}
+
+.col4 .logo {
+    font-size: larger;
+}

@@ -1,0 +1,573 @@
+header h6 {
+    font-size: 14px;
+    position: fixed;
+    z-index: +1;
+    padding-top: 20px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.navbar {
+    /*  position: absolute; */
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background: transparent !important;
+    top: 32.8px;
+    transition: 0.3s ease;
+}
+
+.nav-mid {
+    margin-left: 120px;
+}
+
+.nav-colored {
+    background: white !important;
+
+}
+
+.navigation {
+    padding-top: 35px;
+    background: transparent;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.nav-colored .navbar-brand {
+    color: black !important;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.nav-colored .nav-link {
+    color: black !important;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.icons {
+    color: white;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.nav-colored .icons {
+    color: black !important;
+}
+
+.home {
+    background: url(/project-3_epigamia/img/1440x800px_Desktop_Banner_Kids_Yogurt_high_res_2000x.webp);
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.home-btn {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 670px;
+    padding: 10px 80px;
+    color: rgb(108, 213, 108);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .home2 {
+     background: url(/project-3_epigamia/img/720x480px_Smoothie_Blueberry_FOP_01_3.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+} */
+
+.collections {
+    background-color: #ffd8c8;
+    height: 500px;
+    text-align: center;
+
+}
+
+.arrivals {
+    /*  background-color: lightpink; */
+    height: 500px;
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(225, 163, 175) 0%, rgb(225, 163, 175) 100%);
+}
+
+.bottle {
+    position: absolute;
+    top: 710px;
+    left: 0px;
+}
+
+.small {
+    /* text-align: center; */
+    margin-top: 40px;
+}
+
+.collections h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.collections p {
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+}
+
+.btn1 {
+    border: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.btn2 {
+    border: none;
+    background-color: lightcoral;
+    padding: 10px 35px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.btn3,
+.btn4,
+.btn5 {
+    border: none;
+    background-color: lightcoral;
+    padding: 10px 35px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+}
+
+.carou2 {
+    z-index: -1;
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(225, 163, 175) 0%, rgb(225, 163, 175) 100%);
+    width: 100%;
+    height: 840px;
+}
+
+.strawbwery-jar {
+    position: relative;
+    left: 300px;
+    top: 300px;
+}
+
+.logo {
+    position: absolute;
+    left: 700px;
+    top: 30px;
+}
+
+.carou1 {
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(171, 83, 143) 0%, rgb(171, 83, 143) 100%);
+    width: 100%;
+    height: 840px;
+    z-index: -1;
+}
+
+/* .strawbwery-jar {
+    position: absolute;
+    left: 300px;
+} */
+
+.carousel-inner {
+    width: 100%;
+    height: 840px;
+}
+
+.carou3 {
+    width: 100%;
+    height: 840px;
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(231, 179, 1) 0%, rgb(231, 179, 1) 100%);
+    z-index: -1;
+}
+
+.carou4 {
+    width: 100%;
+    height: 840px;
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(194, 84, 18) 0%, rgb(194, 84, 18) 100%);
+    z-index: -1;
+}
+
+.carousel-item h1 {
+    position: absolute;
+    top: 16%;
+    left: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.u-p {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: white;
+    font-size: 18px;
+}
+
+.caraou-main-img {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.alm-base {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 120px 0px 0px 120px;
+}
+
+.gram {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: -15px 0px 0px -160px;
+}
+
+.gram4 {
+    margin: -15px 0px 0px -220px;
+}
+
+.gram3 {
+    margin: -15px 0px 0px -50px;
+}
+
+.gram2 {
+    margin: -15px 0px 0px -180px;
+}
+
+.trans-btn {
+    background: transparent;
+    border: 1px solid white;
+    padding: 15px 5px;
+    padding-bottom: 0px;
+    color: white;
+    font-weight: bold;
+    /*  position: relative;
+    top: 50%;
+    left: 10%; */
+    margin: 40px 0px 0px 60px;
+}
+
+.b-btn {
+    background: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(171, 83, 143, 0.7);
+    /* position: relative;
+    top: 50%;
+    left: 15%; */
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.strip {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0px 5px 0px;
+}
+
+.carousel2-item {
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(120, 164, 91) 0%, rgb(87, 133, 61) 100%);
+    width: 100%;
+    height: 853px;
+}
+
+.carousel2-item2 {
+    background: radial-gradient(23.93% 47.15% at 68.49% 58.49%, rgb(0, 72, 150) 0%, rgb(0, 72, 150) 100%);
+    width: 100%;
+    height: 853px;
+}
+
+.upper-part h1 {
+    left: 35% !important;
+    top: 18%;
+}
+
+
+.c2u-p {
+    left: 37.5%;
+    top: 26%;
+}
+
+.c2u-p2 {
+    top: 29%;
+    left: 45%;
+}
+
+.left-part img {
+    top: 33%;
+    left: 18.5%;
+}
+
+.right-part {
+    position: absolute;
+    right: 25%;
+    top: 30%;
+}
+
+.right-part .l-p {
+    color: white;
+}
+
+.l-p2 {
+    font-size: 35px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: -15px 0px 0px 130px;
+}
+
+.list {
+    margin: 40px 0px 10px 110px;
+    color: white;
+    font-size: 18px;
+}
+
+.trans-btn2 {
+    margin-left: 120px;
+}
+
+.right-part2 {
+    right: 15%;
+}
+
+.top-data h1 {
+    font-size: 51px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-data p {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-data button {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 180px;
+    color: #A83D60;
+    border: 1px solid #A83D60;
+    background: transparent;
+}
+
+.press-left {
+    width: 334px;
+}
+
+.press-mid {
+    width: 334px;
+}
+
+.press-right {
+    width: 334px;
+}
+
+.press-top h1 {
+    font-size: 51px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reference p {
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.press {
+    background: rgba(204, 72, 189, 0.3);
+}
+
+.sign-top h1 {
+    width: 268px;
+    font-size: 53px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 55px
+}
+
+.sign-left p {
+    width: 460px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.email-label {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.email-input {
+    padding: 10px 180px 10px 20px;
+    background-color: lightgrey;
+    border: none;
+    margin-top: 6px;
+}
+
+.sign-right button {
+    padding: 10px 151px 10px 151px;
+    background-color: brown;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.sign-right {
+    margin-top: 120px !important;
+}
+
+.follow-top {
+    margin-left: 150px;
+}
+
+.follow-h1 {
+    font-size: 53px;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.follow-us {
+    background-color: #07509a;
+}
+
+.row2 {
+    padding-bottom: 100px !important;
+}
+
+.left1 {
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.left2 {
+    list-style: none;
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+
+.right1 {
+    list-style: none;
+    font-size: 14px;
+    line-height: 35px;
+    color: white;
+}
+
+.right-2 li {
+    list-style: none;
+    font-size: 24px;
+    margin: 0px 10px;
+    color: white;
+}
+
+.contact {
+    background-color: #382e2d;
+}
+
+.co-heads {
+    color: lightslategray;
+    font-size: smaller;
+}
+
+.right-2 p {
+    margin-left: 40px;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
+
+/* recepies.html - part */
+
+.recipes-top p {
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.recipes-top h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipes-top {
+    background: #FFEFE9;
+}
+
+.recipes-button button {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFEFE9;
+    padding: 20px 55px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-body p {
+    font-size: 8px;
+    color: #CA7077;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.card-body h3 {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    background-color: #FFEFE9;
+}
+
+.card img:hover {
+    transform: scale(1.3);
+}
+
+.card img {
+    transition: transform 2.5s;
+}

@@ -1,0 +1,28 @@
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#table-0{
+    background-color: khaki;
+}
+
+#table-1{
+    background-color: powderblue;
+}
+
+#table-2{
+    background-color: darkgray;
+}
+
+#table-3{
+    background-color: coral;
+}
+
+.table-heading{
+    background-color: aqua;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

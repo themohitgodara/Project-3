@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>html tables</title>
+
+    <style>
+        body {
+            background: lightgreen;
+        }
+
+        caption {
+            font-size: 40px;
+            border: 5px solid darkkhaki;
+            background-color: lightyellow;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        table {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-collapse: collapse;
+            background-color: white;
+            border-style: outset;
+            border-radius: 15px;
+            border: 1px solid transparent;
+        }
+
+        th {
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        tr {
+            height: 70px;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightseagreen;
+
+        }
+
+        th:nth-child(even),
+        td:nth-child(even) {
+            background-color: yellowgreen;
+        }
+
+        td:hover {
+            background-color: bisque;
+        }
+
+        th:hover {
+            background-color: lightcoral;
+        }
+
+        .lan:hover {
+            background-color: lightcoral;
+            border-top-right-radius: 15px;
+        }
+
+        .lang:hover {
+            background-color: lightcoral;
+            border-top-left-radius: 15px;
+        }
+
+        .langu:hover {
+            background-color: bisque;
+            border-bottom-left-radius: 15px;
+        }
+
+        .langua:hover {
+            background-color: bisque;
+            border-bottom-right-radius: 15px;
+        }
+    </style>
+
+
+
+
+    <!-- <style>
+
+        table,th,td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    </style> -->
+</head>
+
+<body>
+
+    <table style="width: 60%;">
+
+        <caption>My Favourite Country List</caption>
+        <tr>
+            <th style="width: 50%;" class="lang">Country</th>
+            <th>Capital</th>
+            <th class="lan">Language</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>Delhi</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>Switzerland</td>
+            <td>Bern</td>
+            <td>Romansh</td>
+        </tr>
+        <tr>
+            <td>Canada</td>
+            <td>Ottawa</td>
+            <td>French & English</td>
+        </tr>
+        <tr>
+            <td>Denmark</td>
+            <td>Copenhagen</td>
+            <td>Danish</td>
+        </tr>
+        <tr>
+            <td>Norway</td>
+            <td>Oslo</td>
+            <td>Norwegian</td>
+        </tr>
+        <tr>
+            <td class="langu">Australia</td>
+            <td>Canberra</td>
+            <td class="langua">English</td>
+        </tr>
+    </table>
+
+    <ul>
+
+        <li>mohit</li>
+        <li>sandeep</li>
+        <li>ajay</li>
+        <li>manish</li>
+        <li>rahul</li>
+        <li>manak</li>
+    </ul>
+
+    <ol>
+        <li>mohit</li>
+        <li>sandeep</li>
+        <li>ajay</li>
+        <li>manish</li>
+        <li>rahul</li>
+        <li>manak</li>
+    </ol>
+
+    <dl>
+        <dt>food</dt>
+        <dd>cheese</dd>
+        <dd>burger</dd>
+        <dd>bread</dd>
+        <dt>drinks</dt>
+        <dd>mineral water</dd>
+        <dd>softdrink</dd>
+        <dd>soda</dd>
+    </dl>
+
+    <table style="width:100%">
+
+        <thead>
+            <th colspan="5">hello world</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" colspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" colspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" colspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2" rowspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+</body>
+
+</html>

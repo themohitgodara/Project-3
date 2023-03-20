@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>forms in html</title>
+
+    <style>
+        h2 {
+            border: 7px solid black;
+            background-color: khaki;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        form {
+            text-align: center;
+            border: 5px solid black;
+            background-color: aquamarine;
+            background-image: url(https://static2.tripoto.com/media/filter/tst/img/255019/TripDocument/1456830281_images_6.jpg);
+            background-repeat: no-repeat, repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        #form2 {
+            text-align: center;
+            border: 5px solid black;
+            background-color: aquamarine;
+            background-image: url();
+            background-repeat: no-repeat, repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        label {
+            font-size: x-large;
+            /* margin: 12px 0px 12px 0px ; */
+        }
+
+        input {
+            font-size: larger;
+            margin: 4px 0px 10px 0px;
+        }
+
+        button {
+            font-size: x-large;
+            margin: 12px 0px 12px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Travel Reservation form</h2>
+    <form action="">
+
+        <label for="fname">Full Name:</label> <br>
+        <input type="text" id="fname" name="fullname" placeholder="FirstName LastName"> <br>
+        <label for="email">Email-Address:</label> <br>
+        <input type="email" id="email" name="mail" placeholder="EMAIL_ADDRESS"> <br>
+        <label for="destination">Tour Destination:</label> <br>
+        <input list="destination" name="select" placeholder="Select your Destination"> <br>
+        <datalist id="destination">
+            <option value="bikaner">
+            <option value="jaipur">
+            <option value="delhi">
+            <option value="udaipur">
+            <option value="jaisalmer">
+        </datalist>
+        <label for="adate">Arrival Date:</label> <br>
+        <input type="Date" id="adate" name="date"> <br>
+        <label for="pn">Number Of Persons: </label> <br>
+        <input type="number" id="pn" name="number"> <br>
+        <label for="select"> What would you want to avail?</label> <br>
+        <label for="select">Boarding</label>
+        <input type="checkbox" id="select" name="select"> <br>
+        <label for="select">Fooding</label>
+        <input type="checkbox" id="selectt" name="select"> <br>
+        <label for="select">Sight seeing</label>
+        <input type="checkbox" name="select" id="selecttt"> <br>
+        <label for="coupon">Discount Coupon Code:</label> <br>
+        <input type="text" name="coupon" id="coupon" placeholder="write your coupon code"> <br>
+        <label for="radio">Terms and Conditions:</label> <br>
+        <input type="radio" id="radio" name="select"> I agree
+        <input type="radio" id="radio" name="select"> I disagree <br>
+        <button type="submit">Complete Reservation</button>
+
+
+
+
+    </form>
+    <h1>Student Information</h1>
+    <form id="form2" action="">
+
+        <label for="fname">First Name</label> <br>
+        <input type="text" id="fname" name="name" placeholder="Write Here"> <br>
+        <label for="lname">Last Name</label> <br>
+        <input type="text" id="lname" name="name" placeholder="Write Here"> <br>
+        <label for="select">Select Your Gender :</label> <br>
+        <input type="radio" id="male" name="select">Male
+        <input type="radio" id="female" name="select">Male <br>
+        <label for="hobbies">Your Hobbies:</label> <br>
+        <input list="hobbies" name="list" placeholder="select your hobbies">
+        <datalist id="hobbies">
+            <option value="Outdoor Games">
+            <option value="Reading">
+            <option value="Singing">
+            <option value="Cooking">
+            <option value="Travelling">
+        </datalist> <br>
+
+        <label for="college">Your College Name:</label> <br>
+        <input list="college" name="college_name" placeholder="Select Your College">
+        <datalist id="college">
+            <option value="jecrc">
+            <option value="arya">
+            <option value="Skit">
+            <option value="Poornima">
+            <option value="Bmit">
+        </datalist> <br>
+
+        <label for="year"> Select Your Year:</label> <br>
+        <select id="year" name="year_list">
+            <option value="year">1st Year</option>
+            <option value="year">2nd Year</option>
+            <option value="year">3rd Year</option>
+            <option value="year">4th year</option>
+        </select> <br>
+
+        <label for="Semester"> Select Your Year:</label> <br>
+        <select id="semester" name="semester_list">
+            <option value="semester">1st Semester</option>
+            <option value="semester">2nd Semester</option>
+            <option value="semester">3rd Semester</option>
+            <option value="semester">4th Semester</option>
+            <option value="semester">5th Semester</option>
+            <option value="semester">6th Semester</option>
+            <option value="semester">7th Semester</option>
+            <option value="semester">8th Semester</option>
+        </select> <br>
+
+        <label for="pd">Password:</label> <br>
+        <input type="password" id="pd" name="password"> <br>
+
+        <label for="number">Phone Number:</label> <br>
+        <input type="text" id="number" name="number" placeholder="write your number"> <br>
+        <button type="submit">Submit</button>
+
+
+    </form> <br> <br> <br>
+
+    <!-- using all elements of forms and all types of input -->
+
+    <h2>using all elements of forms and all types of input</h2>
+    <form action="">
+
+        <label for="fname">First name:</label> <br>
+        <input type="text" id="fname" name="fname"> <br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"> <br>
+        <label for="cars">Choose a car:</label> <br>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select> <br>
+        <label for="cars">Choose a car:</label> <br>
+        <select id="cars" name="cars" size="3">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select> <br>
+
+        <label for="cars">Choose a car:</label> <br>
+        <select id="cars" name="cars" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select> <br>
+
+        <textarea name="message" rows="10" cols="30">write here--</textarea> <br>
+
+        <textarea name="message" style="width:200px; height:300px;">
+            write here--
+            </textarea> <br>
+
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button> <br>
+
+        <fieldset>
+            <legend>Personal-information:</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset> <br>
+
+        <input list="browsers"> <br>
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist> <br>
+
+        <input type="range" id="a" name="a" value="50"> <br>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"> <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset"> <br>
+        <p>Choose your favorite Web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label> <br> <br>
+        <label for="">Select vehicles you have:</label> <br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat </label><br><br>
+
+        <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br>
+
+        <label for="favcolor">Select your favorite color:</label> <br>
+        <input type="color" id="favcolor" name="favcolor"> <br> <br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"> <br> <br>
+
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime"> <br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"> <br>
+
+        <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48"> <br>
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile"> <br>
+
+        <label for="bdaymonth">Birthday (month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth"> <br>
+
+        <label for="quantity">Quantity (between 1 and 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"> <br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30"> <br>
+
+        <label for="vol">Volume (between 0 and 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"> <br>
+        <input type="submit" value="Submit"> <br>
+
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch"> <br>
+
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt"> <br>
+
+
+        <label for="homepage">Add your homepage:</label>
+        <input type="url" id="homepage" name="homepage"> <br>
+
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week"> <br>
+
+
+
+
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>

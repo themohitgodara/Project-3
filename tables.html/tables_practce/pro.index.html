@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table practice</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <table id="table-0" style="width:80%">
+
+        <thead class="table-heading">
+            <th colspan="5">hello world</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">1111111111111111111111111111111111 <br> 1111111111111111111</td>
+                <td rowspan="2" colspan="2">22222222222222222222222 <br> 222222222222222222222222222222222</td>
+                <td>333333333333333333333333333 <br> 33333333333333333333333333333333333</td>
+                <td rowspan="2">4444444444444444444444444 <br> 44444444444444444444444</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" colspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2" colspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2" rowspan="2">2</td>
+                <td>3</td>
+                <td rowspan="2">4</td>
+
+            </tr>
+
+            <tr>
+                <td>1</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--  practice table no. 1 -->
+
+    <table id="table-1">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 am</td>
+            <td rowspan="2">5:00 pm</td>
+            <td>Introduction to XML </td>
+        </tr>
+
+        <tr>
+            <td>Validity DTD and Relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 am</td>
+            <td>11:00 am</td>
+            <td>XPath</td>
+        </tr>
+
+        <tr>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+            <td rowspan="2">XSL Transformation</td>
+        </tr>
+
+        <tr>
+            <td>2:00 pm</td>
+            <td>5:00 pm</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <!--  practice table no. 2 -->
+
+
+    <table id="table-2">
+
+        <tr>
+            <th rowspan="11">TCB</th>
+            <th>Order no:</th>
+            <td colspan="3">#ABC001</td>
+        </tr>
+
+        <tr>
+            <th>Order date:</th>
+            <td>23-mar-2016</td>
+        </tr>
+
+        <tr>
+            <th colspan="4">Customer</th>
+        </tr>
+
+        <tr>
+            <th>Name:</th>
+            <td colspan="3">John Papas</td>
+        </tr>
+
+        <tr>
+            <th>Address:</th>
+            <td>Independence day 5th str, 11511</td>
+        </tr>
+
+        <tr>
+            <th colspan="4">Order Details</th>
+        </tr>
+
+
+        <tr>
+            <td>1</td>
+            <td>Of Mice and Men</td>
+            <td>Book</td>
+            <td>10.00$</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Less Miserabels</td>
+            <td>Book</td>
+            <td>12.00$</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Game Of Thrones - SO1</td>
+            <td>DVD</td>
+            <td>50.00$</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Samsung Galaxy</td>
+            <td>Mobile phone</td>
+            <td>200.00$</td>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="text-align: right;">Total:</th>
+            <td>272.00$</td>
+        </tr>
+
+    </table>
+        <br>
+        <br>
+        <br>
+
+        <!-- practice table no. 3 -->
+
+        <table id="table-3">
+
+            <tr>
+                <th colspan="3">Purchase Order:987654321</th>
+                <th>Stationary- 10th 0ct 2020</th>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <address><strong>Vendor:</strong>ABC.XYZ ltd. <br>
+                        DUMMY STREET <br>
+                        BUILDING 123 <br>
+                        JAIPUR, RAJASTHAN, 338001</address>
+                </td>
+
+                <td colspan="2">
+                    <address><strong>SHIP TO:</strong>MS DHONI <br>
+                        WILSON GARDEN <br>
+                        BUILDING 123 <br>
+                        SOUTHEAST BLOCK, RANCHI, 548001 </address>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Qty.</th>
+                <th>Item Code.</th>
+                <th>Description</th>
+                <th>Unit Price</th>
+            </tr>
+
+            <tr>
+                <td>100</td>
+                <td>IABCDE</td>
+                <td>Pencils</td>
+                <td>20.00</td>
+            </tr>
+
+            
+            <tr>
+                <td>1000</td>
+                <td>IN877</td>
+                <td>Notebooks</td>
+                <td>100.00</td>
+            </tr>
+
+            
+            <tr>
+                <td>500</td>
+                <td>IP8675</td>
+                <td>Pens</td>
+                <td>70.00</td>
+            </tr>
+
+            <tr>
+                <th colspan="3">Subtotal</th>
+                <td>190.00</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">GST</th>
+                <td>5%</td>
+                <td>9.50</td>
+            </tr>
+
+            <tr>
+                <th colspan="3">Grand Total</th>
+                <td>$ 199.50</td>
+            </tr>
+        </table>
+
+
+    
+
+
+
+
+
+
+
+</body>
+
+</html>

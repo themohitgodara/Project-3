@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    .left-data {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .list {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .list li {
+        margin: 20px;
+        font-size: larger;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(10, 125, 240, 0.5);
+        border: 2px solid;
+        box-shadow: 5px 10px rgba(10, 125, 240, 1);
+    }
+
+    .logo img {
+        margin: 20px 0px 20px 20px;
+    }
+
+    .logo img:hover {
+        background-color: rgba(10, 125, 240, 1);
+        border-radius: 50px;
+        border: 2px dotted black;
+    }
+
+    .icon {
+        margin: 20px;
+        font-size: larger;
+    }
+
+    .right-icons {
+        margin-right: 50px;
+    }
+
+    .list li:hover {
+        font-weight: bold;
+        background-color: rgba(10, 125, 240, 1);
+        color: white;
+        border: 2px dotted black;
+        border-radius: 15px;
+        padding: 4px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(10, 125, 240, 1);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+        font-weight: 500;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: aliceblue;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+        <div class="left-data">
+
+            <div class="logo">
+
+                <img src="/css_things/flex_box/imgs/harley-davidson-logo-png-16295.png" width="120px" height="80px"
+                    alt="Logo">
+
+            </div>
+
+            <div class="list">
+                <ul class="list">
+                    <li class="home">Home</li>
+                    <li class="about">About</li>
+                    <li class="portfolio">Portfolio</li>
+                    <li class="gallery">Gallery</li>
+                    <li class="contact">Contact us</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="right-icons">
+
+            <i class="fa-solid icon fa-user"></i>
+            <i class="fa-solid icon fa-magnifying-glass"></i>
+
+            <div class="dropdown">
+                <span><i class="fa-solid icon icons fa-bars"></i></span>
+                <div class="dropdown-content">
+                    <p>Colors!</p>
+                    <p>Model!</p>
+                    <p>Avaibility!</p>
+                    <p>Offers!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+
+</body>
+
+</html>
